@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@data/*": ["./src/data-layer/*"],
+      "@models/*": ["./src/data-layer/models/*"],
+      "@view/*": ["./src/view-layer/*"],
+      "@components/*": ["./src/view-layer/components/*"],
+      "@pages/*": ["./src/view-layer/pages/*"]
+    }
+  }
+}
